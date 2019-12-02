@@ -1,0 +1,43 @@
+#main-nav {
+    display: inline-block;
+    width: 100%;
+    padding:25px 20px;
+    background-color: #000;
+
+    .logo-container {
+        display: inline-block;
+        float: left;
+        color:#fff
+    }
+    .menu-ul{
+        float: right;
+        display: inline-block;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: inline-block;
+
+            a{  
+                color: #fff;
+                text-decoration: none;
+                padding: 0 15px;
+                margin:0 10px;
+                
+                &.nav-active {
+                    color: greenyellow;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
