@@ -24,20 +24,12 @@
                 text-decoration: none;
                 padding: 0 15px;
                 margin:0 10px;
-                
+
                 &.nav-active {
                     color: greenyellow;
                     text-decoration: underline;
                 }
             }
         }
-    }
-}
-
-.clearfix {
-    &::after {
-        content: "";
-        clear: both;
-        display: table;
     }
 }

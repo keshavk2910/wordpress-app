@@ -12,13 +12,11 @@ import Contact_us from './pages/Contac_us/Contact_us';
 import ErrorPage from './pages/error';
 
 class App extends Component {
-
-
-
+  
   render() { 
     return (
     <div className="App">
-      <Header />
+      <Header/>
       <Switch>
       <Route exact path="/" component={Homepage}/>
       <Route path="/about-us" component={About_us}/>
