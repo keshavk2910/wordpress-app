@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/wordpress-app/static/css/main.5f490d5b.chunk.css",
+    "main.js": "/wordpress-app/static/js/main.fe11bd5b.chunk.js",
+    "main.js.map": "/wordpress-app/static/js/main.fe11bd5b.chunk.js.map",
+    "runtime-main.js": "/wordpress-app/static/js/runtime-main.dd1f1511.js",
+    "runtime-main.js.map": "/wordpress-app/static/js/runtime-main.dd1f1511.js.map",
+    "static/css/2.247797c6.chunk.css": "/wordpress-app/static/css/2.247797c6.chunk.css",
+    "static/js/2.9e980914.chunk.js": "/wordpress-app/static/js/2.9e980914.chunk.js",
+    "static/js/2.9e980914.chunk.js.map": "/wordpress-app/static/js/2.9e980914.chunk.js.map",
+    "index.html": "/wordpress-app/index.html",
+    "precache-manifest.d578afb446ceb36826cc5bd47f981ce1.js": "/wordpress-app/precache-manifest.d578afb446ceb36826cc5bd47f981ce1.js",
+    "service-worker.js": "/wordpress-app/service-worker.js",
+    "static/css/2.247797c6.chunk.css.map": "/wordpress-app/static/css/2.247797c6.chunk.css.map",
+    "static/css/main.5f490d5b.chunk.css.map": "/wordpress-app/static/css/main.5f490d5b.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd1f1511.js",
+    "static/css/2.247797c6.chunk.css",
+    "static/js/2.9e980914.chunk.js",
+    "static/css/main.5f490d5b.chunk.css",
+    "static/js/main.fe11bd5b.chunk.js"
+  ]
+}
