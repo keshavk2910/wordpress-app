@@ -18,9 +18,9 @@ class App extends Component {
     <div className="App">
       <Header/>
       <Switch>
-      <Route exact path="/" component={Homepage}/>
-      <Route path="/about-us" component={About_us}/>
-      <Route path="/contact-us" component={Contact_us}/>
+      <Route exact path="/wordpress-app/" component={Homepage}/>
+      <Route path="/wordpress-app/about-us" component={About_us}/>
+      <Route path="/wordpress-app/contact-us" component={Contact_us}/>
       <Route component={ErrorPage}/>
       </Switch>
     </div>
