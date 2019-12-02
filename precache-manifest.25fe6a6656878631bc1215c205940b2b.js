@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "271ef3823fb18afaa89e99a457d26429",
+    "revision": "0eec294c9f488da0cf3f4329d4e67ff4",
     "url": "/wordpress-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wordpress-app/static/css/2.247797c6.chunk.css"
   },
   {
-    "revision": "8efad0d24bcb0bf41fb1",
+    "revision": "5b5f7261b06fa272aca6",
     "url": "/wordpress-app/static/css/main.5f490d5b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wordpress-app/static/js/2.9e980914.chunk.js"
   },
   {
-    "revision": "8efad0d24bcb0bf41fb1",
-    "url": "/wordpress-app/static/js/main.22f92c6a.chunk.js"
+    "revision": "5b5f7261b06fa272aca6",
+    "url": "/wordpress-app/static/js/main.fa8cce1d.chunk.js"
   },
   {
     "revision": "9c90a0ac39d38f963713",
