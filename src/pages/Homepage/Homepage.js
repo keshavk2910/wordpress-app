@@ -10,7 +10,7 @@ class Homepage extends Component {
           posts: [],
         };
       }
-
+//https://bigbuildingdev.tk/wp-json/wc/v2/products/?consumer_key=ck_e4024e453439c4b13448d6616981a74e25efb2c9&consumer_secret=cs_24be3417bff0ff39f6c3a20b62c75225c0a2b7f5
 componentDidMount() {
     fetch('https://bigbuildingdev.tk/wp-json/wp/v2/posts/?_embed&per_page=100')
     .then(response => response.json())
