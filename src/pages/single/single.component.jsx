@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from "axios";
 import './single.style.css';
 
-class Single extends React.Component {
+class Single extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -30,7 +30,7 @@ render() {
           <h1>{this.state.post.title.rendered}</h1>
           {this.state.post.featured_media ?
                 <a href={this.state.link}>
-                <img src={this.state.post._embedded['wp:featuredmedia'][0].source_url} /></a>
+                <img alt={this.state.post.title.rendered} src={this.state.post._embedded['wp:featuredmedia'][0].source_url} /></a>
             : null}
           <div dangerouslySetInnerHTML={{ __html: this.state.post.content.rendered }} />
         </div>

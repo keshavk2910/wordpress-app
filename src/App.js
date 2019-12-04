@@ -9,7 +9,7 @@ import Header from './components/header/header.component';
 import Homepage from './pages/Homepage/Homepage';
 import About_us from './pages/About_us/About_us';
 import Contact_us from './pages/Contac_us/Contact_us';
-import Single from './components/single/single.component';
+import Single from './pages/single/single.component';
 import ErrorPage from './pages/error';
 
 class App extends Component {
