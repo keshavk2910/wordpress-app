@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/wordpress-app/static/css/main.1dcd181f.chunk.css",
-    "main.js": "/wordpress-app/static/js/main.7118f49a.chunk.js",
-    "main.js.map": "/wordpress-app/static/js/main.7118f49a.chunk.js.map",
+    "main.css": "/wordpress-app/static/css/main.62f66e4f.chunk.css",
+    "main.js": "/wordpress-app/static/js/main.b840cf79.chunk.js",
+    "main.js.map": "/wordpress-app/static/js/main.b840cf79.chunk.js.map",
     "runtime-main.js": "/wordpress-app/static/js/runtime-main.dd1f1511.js",
     "runtime-main.js.map": "/wordpress-app/static/js/runtime-main.dd1f1511.js.map",
     "static/css/2.247797c6.chunk.css": "/wordpress-app/static/css/2.247797c6.chunk.css",
-    "static/js/2.dbbdc230.chunk.js": "/wordpress-app/static/js/2.dbbdc230.chunk.js",
-    "static/js/2.dbbdc230.chunk.js.map": "/wordpress-app/static/js/2.dbbdc230.chunk.js.map",
+    "static/js/2.536f18b0.chunk.js": "/wordpress-app/static/js/2.536f18b0.chunk.js",
+    "static/js/2.536f18b0.chunk.js.map": "/wordpress-app/static/js/2.536f18b0.chunk.js.map",
     "index.html": "/wordpress-app/index.html",
-    "precache-manifest.3dd102641d24983030da76ebe7249b2b.js": "/wordpress-app/precache-manifest.3dd102641d24983030da76ebe7249b2b.js",
+    "precache-manifest.90009a61701de2077ca6c7e2ab555fb3.js": "/wordpress-app/precache-manifest.90009a61701de2077ca6c7e2ab555fb3.js",
     "service-worker.js": "/wordpress-app/service-worker.js",
     "static/css/2.247797c6.chunk.css.map": "/wordpress-app/static/css/2.247797c6.chunk.css.map",
-    "static/css/main.1dcd181f.chunk.css.map": "/wordpress-app/static/css/main.1dcd181f.chunk.css.map"
+    "static/css/main.62f66e4f.chunk.css.map": "/wordpress-app/static/css/main.62f66e4f.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.dd1f1511.js",
     "static/css/2.247797c6.chunk.css",
-    "static/js/2.dbbdc230.chunk.js",
-    "static/css/main.1dcd181f.chunk.css",
-    "static/js/main.7118f49a.chunk.js"
+    "static/js/2.536f18b0.chunk.js",
+    "static/css/main.62f66e4f.chunk.css",
+    "static/js/main.b840cf79.chunk.js"
   ]
 }
