@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Switch, BrowserRouter as Router} from 'react-router-dom';
 
 //components
 import Header from './components/header/header.component';
@@ -15,16 +15,18 @@ class App extends Component {
   
   render() { 
     return (
+      <Router>
     <div className="App">
-      <Header/>
-      <Switch>
+    <Header/>
+        <Switch>
       <Route exact path="/wordpress-app/" component={Homepage}/>
       <Route path="/wordpress-app/about-us" component={About_us}/>
       <Route path="/wordpress-app/contact-us" component={Contact_us}/>
       <Route component={ErrorPage}/>
       </Switch>
     </div>
-    )
+    </Router>
+    );
 }
 }
 
