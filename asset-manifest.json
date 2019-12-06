@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wordpress-app/static/css/main.86ab6f45.chunk.css",
-    "main.js": "/wordpress-app/static/js/main.d567ea84.chunk.js",
-    "main.js.map": "/wordpress-app/static/js/main.d567ea84.chunk.js.map",
+    "main.js": "/wordpress-app/static/js/main.1563936a.chunk.js",
+    "main.js.map": "/wordpress-app/static/js/main.1563936a.chunk.js.map",
     "runtime-main.js": "/wordpress-app/static/js/runtime-main.dd1f1511.js",
     "runtime-main.js.map": "/wordpress-app/static/js/runtime-main.dd1f1511.js.map",
     "static/css/2.247797c6.chunk.css": "/wordpress-app/static/css/2.247797c6.chunk.css",
     "static/js/2.29693d02.chunk.js": "/wordpress-app/static/js/2.29693d02.chunk.js",
     "static/js/2.29693d02.chunk.js.map": "/wordpress-app/static/js/2.29693d02.chunk.js.map",
     "index.html": "/wordpress-app/index.html",
-    "precache-manifest.29e5e7149ede31ecd6b65c04c3987753.js": "/wordpress-app/precache-manifest.29e5e7149ede31ecd6b65c04c3987753.js",
+    "precache-manifest.fc34baf8445b68cba459eb1a4deec628.js": "/wordpress-app/precache-manifest.fc34baf8445b68cba459eb1a4deec628.js",
     "service-worker.js": "/wordpress-app/service-worker.js",
     "static/css/2.247797c6.chunk.css.map": "/wordpress-app/static/css/2.247797c6.chunk.css.map",
     "static/css/main.86ab6f45.chunk.css.map": "/wordpress-app/static/css/main.86ab6f45.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.247797c6.chunk.css",
     "static/js/2.29693d02.chunk.js",
     "static/css/main.86ab6f45.chunk.css",
-    "static/js/main.d567ea84.chunk.js"
+    "static/js/main.1563936a.chunk.js"
   ]
 }
