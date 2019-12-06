@@ -10,6 +10,7 @@ const Header = () => {
         </Link>
         <ul className="menu-ul">
         <li><NavLink exact activeClassName="nav-active" to="/wordpress-app/" >Home</NavLink></li>
+        <li><NavLink activeClassName="nav-active" to="/wordpress-app/products">Products</NavLink></li>
         <li><NavLink activeClassName="nav-active" to="/wordpress-app/about-us" >About Us</NavLink></li>
         <li><NavLink activeClassName="nav-active" to="/wordpress-app/contact-us">Contact Us</NavLink></li>
         </ul>

@@ -1,13 +1,15 @@
 import React, {Component} from 'react';
 import axios from "axios";
 import './single.style.css';
+import HashLoader from 'react-spinners/HashLoader';
 
 class Single extends Component {
     constructor(props){
         super(props);
         this.state = {
             id:`${props.match.params.id}`,
-            post:{}
+            post:{},
+            loading:true
         }
     }
     
@@ -17,15 +19,16 @@ class Single extends Component {
       .get(`https://bigbuildingdev.tk/wp-json/wp/v2/posts/${id}?_embed`)
       .then(post => {
         this.setState({
-          post: post.data
+          post: post.data,
+          loading:false
         });
       });
     }
     
 render() {
-    let build;
-    if (this.state.post.title) {
-      build = (
+    return (
+      <React.Fragment>
+      {this.state.loading === false ?
         <div className="single">
           <h1>{this.state.post.title.rendered}</h1>
           {this.state.post.featured_media ?
@@ -33,12 +36,16 @@ render() {
                 <img alt={this.state.post.title.rendered} src={this.state.post._embedded['wp:featuredmedia'][0].source_url} /></a>
             : null}
           <div dangerouslySetInnerHTML={{ __html: this.state.post.content.rendered }} />
-        </div>
-      );
-    } else {
-      build = <div>Loading...</div>;
+        </div> : 
+      <div className="loader"><HashLoader
+      sizeUnit={"px"}
+      size={150}
+      color={'#f1592a'}
+      loading={this.state.loading}
+    /></div>
     }
-    return build;
+      </React.Fragment>
+    );
 }
 }
 export default Single;

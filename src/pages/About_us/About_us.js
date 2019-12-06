@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import axios from 'axios';
 import parse from 'html-react-parser';
+import HashLoader from 'react-spinners/HashLoader';
 
 //Components
 
@@ -10,7 +11,8 @@ class About_us extends Component {
   constructor() {
     super();
     this.state = {
-        data:[]
+        data:[],
+        loading:true
     }
 }
 // Function to receivedata from the endpoint
@@ -20,7 +22,7 @@ receiveData(){
       .then(res => {
           const data = res.data
           const content = parse(data.content.rendered)
-this.setState({content})
+this.setState({content, loading:false})
 })
       .catch((error) => {
           console.log(error)
@@ -32,9 +34,15 @@ componentDidMount(){
 }
 render() {
     return (
-      <div>
-       {this.state.content}
-      </div>
+      <React.Fragment>
+       {this.state.loading === false ? this.state.content : 
+      <div className="loader"><HashLoader
+     sizeUnit={"px"}
+     size={150}
+     color={'#f1592a'}
+     loading={this.state.loading}
+   /></div>}
+       </React.Fragment>
     )
   }
 }
