@@ -5,14 +5,14 @@ import{ NavLink, Link } from 'react-router-dom';
 const Header = () => {
     return (
         <nav id="main-nav">
-        <Link to="/wordpress-app/">
+        <Link to="/">
         <div className="logo-container">THIS IS LOGO</div>
         </Link>
         <ul className="menu-ul">
-        <li><NavLink exact activeClassName="nav-active" to="/wordpress-app/" >Home</NavLink></li>
-        <li><NavLink activeClassName="nav-active" to="/wordpress-app/products">Products</NavLink></li>
-        <li><NavLink activeClassName="nav-active" to="/wordpress-app/about-us" >About Us</NavLink></li>
-        <li><NavLink activeClassName="nav-active" to="/wordpress-app/contact-us">Contact Us</NavLink></li>
+        <li><NavLink exact activeClassName="nav-active" to="/" >Home</NavLink></li>
+        <li><NavLink activeClassName="nav-active" to="/products">Products</NavLink></li>
+        <li><NavLink activeClassName="nav-active" to="/about-us" >About Us</NavLink></li>
+        <li><NavLink activeClassName="nav-active" to="/contact-us">Contact Us</NavLink></li>
         </ul>
         </nav>
     );

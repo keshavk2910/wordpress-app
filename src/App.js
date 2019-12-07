@@ -18,14 +18,14 @@ class App extends Component {
   
   render() { 
     return (
-      <Router>
+      <Router  basename={process.env.PUBLIC_URL}>
     <div className="App">
     <Header/>
         <Switch>
-      <Route exact path="/wordpress-app/" component={Homepage}/>
-      <Route exact path="/wordpress-app/products" component={Products}/>
-      <Route path="/wordpress-app/about-us" component={About_us}/>
-      <Route path="/wordpress-app/contact-us" component={Contact_us}/>
+      <Route exact path="/" component={Homepage}/>
+      <Route exact path="/products" component={Products}/>
+      <Route path="/about-us" component={About_us}/>
+      <Route path="/contact-us" component={Contact_us}/>
       <Route path="/single/:id" component={Single}/>
       <Route path="/product/:id" component={SingleProduct}/>
       <Route component={ErrorPage}/>
