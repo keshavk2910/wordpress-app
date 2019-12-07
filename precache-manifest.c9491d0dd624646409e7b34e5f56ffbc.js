@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1748018ab7630bd35e87b98be29ceea",
+    "revision": "ad239383a8120c08c776ac61830fbc2f",
     "url": "/wordpress-app/index.html"
   },
   {
-    "revision": "23dfa7310eacb976c7b7",
+    "revision": "869e8343b34b2b4014b7",
     "url": "/wordpress-app/static/css/2.247797c6.chunk.css"
   },
   {
-    "revision": "75c435f5c38018971ba3",
+    "revision": "f90cb4afae92f5dd6cc3",
     "url": "/wordpress-app/static/css/main.3fb954d7.chunk.css"
   },
   {
-    "revision": "23dfa7310eacb976c7b7",
-    "url": "/wordpress-app/static/js/2.f5fba2c8.chunk.js"
+    "revision": "869e8343b34b2b4014b7",
+    "url": "/wordpress-app/static/js/2.29693d02.chunk.js"
   },
   {
-    "revision": "75c435f5c38018971ba3",
-    "url": "/wordpress-app/static/js/main.ac99e2bd.chunk.js"
+    "revision": "f90cb4afae92f5dd6cc3",
+    "url": "/wordpress-app/static/js/main.8abe791e.chunk.js"
   },
   {
     "revision": "9c90a0ac39d38f963713",
